@@ -1,0 +1,1420 @@
+2025-05-20 20:57:51.016 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-05-20 20:57:51.168 [main] INFO  Application - Application started in 0.345 seconds.
+2025-05-20 20:57:51.351 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2025-05-20 20:59:54.960 [eventLoopGroupProxy-4-2] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 93ms
+2025-05-20 20:59:56.539 [eventLoopGroupProxy-4-2] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 0ms
+2025-05-20 20:59:57.369 [eventLoopGroupProxy-4-2] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 0ms
+2025-05-20 20:59:57.847 [eventLoopGroupProxy-4-2] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 0ms
+2025-05-20 21:04:51.843 [eventLoopGroupProxy-4-3] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 64837ms
+2025-05-20 21:09:52.740 [eventLoopGroupProxy-4-4] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 6453ms
+2025-05-20 21:12:35.707 [eventLoopGroupProxy-4-5] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 86663ms
+2025-05-20 21:21:12.103 [eventLoopGroupProxy-4-6] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 64945ms
+2025-05-20 21:32:16.236 [eventLoopGroupProxy-4-7] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 3ms
+2025-05-20 21:32:56.240 [eventLoopGroupProxy-4-7] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 0ms
+2025-05-20 21:32:58.023 [eventLoopGroupProxy-4-7] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 0ms
+2025-05-20 21:34:03.371 [eventLoopGroupProxy-3-7] DEBUG Application - I/O operation failed
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 21:34:33.952 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-05-20 21:34:34.121 [main] INFO  Application - Application started in 0.413 seconds.
+2025-05-20 21:34:34.306 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2025-05-20 21:34:38.924 [eventLoopGroupProxy-4-2] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 108ms
+2025-05-20 21:34:44.915 [eventLoopGroupProxy-3-2] DEBUG Application - I/O operation failed
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 21:34:44.915 [eventLoopGroupProxy-3-1] DEBUG Application - I/O operation failed
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 21:34:54.150 [eventLoopGroupProxy-4-3] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 9052ms
+2025-05-20 21:36:03.154 [eventLoopGroupProxy-4-4] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 65021ms
+2025-05-20 21:38:56.888 [eventLoopGroupProxy-4-5] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 47890ms
+2025-05-20 21:41:33.924 [eventLoopGroupProxy-4-6] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 5737ms
+2025-05-20 21:41:44.458 [eventLoopGroupProxy-4-7] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 7227ms
+2025-05-20 21:42:57.279 [eventLoopGroupProxy-4-8] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 50106ms
+2025-05-20 21:43:34.512 [eventLoopGroupProxy-4-9] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 30069ms
+2025-05-20 21:43:57.677 [eventLoopGroupProxy-4-10] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 22238ms
+2025-05-20 21:45:59.872 [eventLoopGroupProxy-4-11] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 64482ms
+2025-05-20 21:46:34.031 [eventLoopGroupProxy-4-12] INFO  Application - [31m404 Not Found[m: [36mGET[m - / in 1ms
+2025-05-20 21:46:56.976 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-05-20 21:46:57.121 [main] INFO  Application - Application started in 0.334 seconds.
+2025-05-20 21:51:19.213 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-05-20 21:51:19.326 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:51:19.327 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:51:19.382 [main] INFO  Application - Application started in 0.419 seconds.
+2025-05-20 21:51:19.625 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2025-05-20 21:51:31.463 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:51:31.463 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:51:31.464 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:51:31.464 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:51:31.464 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:51:31.464 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:51:46.789 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:51:46.789 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:51:46.790 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:51:46.790 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:51:46.996 [eventLoopGroupProxy-4-1] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 15573ms
+2025-05-20 21:51:48.429 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:51:48.429 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:51:48.430 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:51:48.430 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:51:48.430 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:51:48.430 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:52:01.891 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:52:01.891 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:52:01.892 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:52:01.892 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:52:01.892 [eventLoopGroupProxy-4-2] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 13464ms
+2025-05-20 21:52:03.113 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:52:03.113 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:52:03.113 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:52:03.114 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:52:03.114 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:52:03.114 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:52:16.770 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:52:16.771 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:52:16.771 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:52:16.771 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:52:16.771 [eventLoopGroupProxy-4-3] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 13659ms
+2025-05-20 21:52:18.035 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:52:18.035 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:52:18.035 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:52:18.035 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:52:18.035 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:52:18.035 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:52:36.154 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:52:36.155 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:52:36.155 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:52:36.155 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:52:36.155 [eventLoopGroupProxy-4-4] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 18121ms
+2025-05-20 21:54:23.984 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:54:23.985 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:54:23.985 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:54:23.985 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:54:23.985 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:54:23.985 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:54:24.066 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: connect
+2025-05-20 21:54:24.067 [eventLoopGroupProxy-3-4] WARN  com.example.SocketRoutes - Unknown action type: connect
+2025-05-20 21:54:24.070 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (-1, -1)
+2025-05-20 21:54:24.074 [eventLoopGroupProxy-3-4] ERROR com.example.SocketRoutes - Error in WebSocket connection for player X
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 3
+	at com.example.models.TicTacToeGame.finishTurn(TicTacToeGame.kt:83)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:39)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 21:54:24.077 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:54:24.077 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:54:24.078 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:54:24.078 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:54:24.092 [eventLoopGroupProxy-4-5] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 109ms
+2025-05-20 21:55:36.897 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:55:36.897 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:55:36.897 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:55:36.898 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:55:36.898 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:55:36.898 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:55:36.980 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: connect
+2025-05-20 21:55:36.980 [eventLoopGroupProxy-3-1] WARN  com.example.SocketRoutes - Unknown action type: connect
+2025-05-20 21:55:36.980 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (-1, -1)
+2025-05-20 21:55:36.980 [eventLoopGroupProxy-3-1] ERROR com.example.SocketRoutes - Error in WebSocket connection for player X
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 3
+	at com.example.models.TicTacToeGame.finishTurn(TicTacToeGame.kt:83)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:39)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 21:55:36.981 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:55:36.981 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:55:36.981 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:55:36.981 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:55:36.990 [eventLoopGroupProxy-4-6] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 94ms
+2025-05-20 21:55:50.283 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:55:50.284 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:55:50.284 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:55:50.284 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:55:50.284 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:55:50.284 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:55:50.367 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: connect
+2025-05-20 21:55:50.368 [eventLoopGroupProxy-3-4] WARN  com.example.SocketRoutes - Unknown action type: connect
+2025-05-20 21:55:50.368 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (-1, -1)
+2025-05-20 21:55:50.368 [eventLoopGroupProxy-3-4] ERROR com.example.SocketRoutes - Error in WebSocket connection for player X
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 3
+	at com.example.models.TicTacToeGame.finishTurn(TicTacToeGame.kt:83)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:39)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 21:55:50.368 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:55:50.368 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:55:50.368 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:55:50.368 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:55:50.378 [eventLoopGroupProxy-4-7] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 96ms
+2025-05-20 21:57:19.401 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:57:19.401 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:57:19.401 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:57:19.401 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:57:19.401 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:57:19.401 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:57:20.059 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":0,"y":0}
+2025-05-20 21:57:20.059 [eventLoopGroupProxy-3-1] WARN  com.example.SocketRoutes - Unknown action type: make_turn{"x":0,"y":0}
+2025-05-20 21:57:20.059 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (-1, -1)
+2025-05-20 21:57:20.059 [eventLoopGroupProxy-3-1] ERROR com.example.SocketRoutes - Error in WebSocket connection for player X
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 3
+	at com.example.models.TicTacToeGame.finishTurn(TicTacToeGame.kt:83)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:39)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 21:57:20.060 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 21:57:20.060 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 21:57:20.060 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7f750ced, [Ljava.lang.Character;@7b104899, [Ljava.lang.Character;@7edb20a7], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:57:20.060 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:57:20.090 [eventLoopGroupProxy-4-8] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 690ms
+2025-05-20 21:58:57.760 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-05-20 21:58:57.872 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 21:58:57.874 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:58:57.931 [main] INFO  Application - Application started in 0.352 seconds.
+2025-05-20 21:58:58.115 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2025-05-20 21:59:06.077 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 21:59:06.077 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 21:59:06.078 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 21:59:06.078 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 21:59:06.078 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 21:59:06.078 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 21:59:06.163 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":0,"y":0}
+2025-05-20 21:59:06.164 [eventLoopGroupProxy-3-4] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 21:59:06.166 [eventLoopGroupProxy-3-4] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 22:00:05.158 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:00:05.158 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:00:05.159 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:00:05.159 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:00:05.213 [eventLoopGroupProxy-4-1] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 59176ms
+2025-05-20 22:01:39.688 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:01:39.688 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 22:01:39.688 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 22:01:39.688 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 22:01:39.688 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:01:39.689 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:01:39.857 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":0}
+2025-05-20 22:01:39.868 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 0)
+2025-05-20 22:01:39.868 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:01:39.868 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:02:44.641 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:02:44.641 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:02:44.641 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:02:44.641 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:02:44.641 [eventLoopGroupProxy-4-2] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 64955ms
+2025-05-20 22:03:51.004 [eventLoopGroupProxy-3-6] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:03:51.004 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 22:03:51.004 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 22:03:51.004 [eventLoopGroupProxy-3-6] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 22:03:51.004 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:03:51.004 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:03:51.084 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":0}
+2025-05-20 22:03:51.084 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 0)
+2025-05-20 22:03:51.085 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:04:40.243 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:04:40.244 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:04:40.244 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:04:40.244 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:04:40.244 [eventLoopGroupProxy-4-3] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 49242ms
+2025-05-20 22:04:59.664 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:04:59.664 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 22:04:59.664 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 22:04:59.665 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 22:04:59.665 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:04:59.665 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:07:05.768 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:07:05.768 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:07:05.768 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:07:05.768 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:07:05.769 [eventLoopGroupProxy-4-4] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 126106ms
+2025-05-20 22:07:15.980 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:07:15.980 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 22:07:15.980 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 22:07:15.981 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 22:07:15.981 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:07:15.981 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:08:19.407 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:08:19.407 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:08:19.407 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:08:19.407 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:08:19.408 [eventLoopGroupProxy-4-5] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 63429ms
+2025-05-20 22:10:23.388 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:10:23.389 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 22:10:23.389 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 22:10:23.389 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 22:10:23.389 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:10:23.389 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:11:22.598 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:22.601 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:22.602 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:22.737 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:22.737 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:22.737 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:22.885 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:22.886 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:22.886 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:23.043 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:23.043 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:23.043 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:24.345 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":0}
+2025-05-20 22:11:24.346 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 0)
+2025-05-20 22:11:24.346 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:11:24.603 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":0}
+2025-05-20 22:11:24.603 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 0)
+2025-05-20 22:11:24.603 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:24.793 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 22:11:24.793 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 22:11:24.793 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:25.567 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:25.567 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:25.567 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:25.743 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":2}
+2025-05-20 22:11:25.743 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 2)
+2025-05-20 22:11:25.743 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:25.909 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:11:25.909 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:11:25.909 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:26.091 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:11:26.091 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:11:26.091 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:26.284 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":2}
+2025-05-20 22:11:26.284 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 2)
+2025-05-20 22:11:26.284 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:26.446 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:26.446 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:26.446 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:26.864 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":2}
+2025-05-20 22:11:26.865 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 2)
+2025-05-20 22:11:26.865 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:27.030 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:11:27.030 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:11:27.031 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:27.201 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:11:27.201 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:11:27.202 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:27.366 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:27.367 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:27.367 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:27.554 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 22:11:27.554 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 22:11:27.554 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:27.739 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:11:27.739 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:11:27.739 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:11:29.792 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":0}
+2025-05-20 22:11:29.792 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 0)
+2025-05-20 22:11:29.792 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:12:35.382 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:12:35.383 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:12:35.383 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:12:35.383 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:12:35.383 [eventLoopGroupProxy-4-6] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 131997ms
+2025-05-20 22:12:59.836 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:12:59.837 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 22:12:59.837 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 22:12:59.837 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 22:12:59.837 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:12:59.837 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:00.204 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:13:00.204 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 22:13:00.204 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 22:13:00.205 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 22:13:00.205 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:00.205 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:23.690 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 22:13:23.691 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 22:13:23.691 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:23.691 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:25.251 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 22:13:25.252 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 22:13:25.252 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:25.252 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:26.211 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":2}
+2025-05-20 22:13:26.212 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 2)
+2025-05-20 22:13:26.212 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:26.212 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:26.420 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:26.420 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:26.420 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:26.420 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:26.545 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:26.545 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:26.545 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:26.545 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:26.696 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:26.697 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:26.697 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:26.779 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:26.779 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:26.779 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:26.954 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:26.955 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:26.955 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:26.966 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:26.966 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 22:13:26.966 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:13:27.160 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:27.161 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:27.161 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:27.238 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:27.238 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:27.238 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:27.400 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:27.401 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:27.401 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:27.663 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:27.664 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:27.664 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:27.786 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":2}
+2025-05-20 22:13:27.786 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 2)
+2025-05-20 22:13:27.786 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:27.920 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:27.920 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:27.920 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:27.974 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":2}
+2025-05-20 22:13:27.974 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 2)
+2025-05-20 22:13:27.974 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:28.097 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:28.098 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:28.098 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:28.286 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:28.286 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:28.286 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:28.501 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:28.501 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:28.501 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:28.560 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:28.560 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 22:13:28.560 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:13:28.677 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:28.677 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:28.677 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:28.751 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:28.751 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:28.751 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:28.870 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 22:13:28.870 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 22:13:28.871 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X won the game
+2025-05-20 22:13:28.871 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=X, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:28.871 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:29.082 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:29.082 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:29.082 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:29.274 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:29.275 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:29.275 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:29.351 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:29.351 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:29.351 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:29.473 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:29.473 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 1)
+2025-05-20 22:13:29.473 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:29.592 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:29.592 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:29.592 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:29.665 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 22:13:29.665 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 22:13:29.665 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:29.859 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:29.859 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:29.859 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.049 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:30.049 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:30.049 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.246 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:30.246 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:30.247 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.322 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:30.323 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:30.323 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.406 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:30.406 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 1)
+2025-05-20 22:13:30.406 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.487 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:30.487 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:30.487 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.578 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 22:13:30.578 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 22:13:30.578 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.663 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:30.663 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 22:13:30.663 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.728 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:30.728 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:30.728 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.924 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 22:13:30.924 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 22:13:30.924 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:30.924 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:30.924 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:30.924 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.082 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:31.082 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 22:13:31.082 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.166 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:31.166 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:31.166 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.243 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 22:13:31.243 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 22:13:31.243 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.376 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:31.376 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:31.376 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.426 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 22:13:31.426 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 22:13:31.426 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.477 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:31.477 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting move at (2, 2)
+2025-05-20 22:13:31.477 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.493 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 22:13:31.493 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 22:13:31.493 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.566 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 22:13:31.566 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 22:13:31.566 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.640 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:31.640 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 22:13:31.640 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.682 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:31.682 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (2, 2)
+2025-05-20 22:13:31.682 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.732 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:31.732 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 1)
+2025-05-20 22:13:31.732 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.770 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:31.771 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 22:13:31.771 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.842 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:31.843 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting move at (2, 2)
+2025-05-20 22:13:31.843 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:31.911 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 22:13:31.912 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 22:13:31.912 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:33.096 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 22:13:33.096 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 22:13:33.096 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:13:33.887 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:33.887 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:35.330 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 22:13:35.330 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 22:13:35.331 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:35.331 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:36.251 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":1}
+2025-05-20 22:13:36.251 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 1)
+2025-05-20 22:13:36.251 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 22:13:37.025 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":2}
+2025-05-20 22:13:37.025 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 2)
+2025-05-20 22:13:37.025 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:37.025 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:37.177 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:37.177 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:37.177 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:13:37.177 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:13:42.968 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 22:13:42.968 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 22:13:42.968 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:14:49.752 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 22:14:49.752 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 22:14:49.752 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:14:49.752 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:14:49.752 [eventLoopGroupProxy-4-8] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 109549ms
+2025-05-20 22:15:15.477 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:15:15.478 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:15:15.478 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:15:15.478 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:15:15.478 [eventLoopGroupProxy-4-7] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 135643ms
+2025-05-20 22:16:26.167 [eventLoopGroupProxy-3-7] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:16:26.167 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 22:16:26.167 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 22:16:26.167 [eventLoopGroupProxy-3-7] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 22:16:26.167 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 22:16:26.167 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:16:26.321 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 22:16:26.322 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 22:16:26.322 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 22:16:26.322 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 22:16:26.322 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:16:26.322 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:16:28.465 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":2}
+2025-05-20 22:16:28.465 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 2)
+2025-05-20 22:16:28.465 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:16:34.943 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":0}
+2025-05-20 22:16:34.943 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 0)
+2025-05-20 22:16:34.943 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:16:34.943 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:16:36.436 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":0}
+2025-05-20 22:16:36.436 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 0)
+2025-05-20 22:16:36.437 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:16:36.437 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:16:37.871 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 22:16:37.872 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 22:16:37.872 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O won the game
+2025-05-20 22:16:37.872 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=O, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 22:16:37.872 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:16:38.107 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 22:16:38.107 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 22:16:38.107 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:16:38.222 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 22:16:38.222 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 22:16:38.222 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:16:38.352 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 22:16:38.352 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 22:16:38.352 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: position already taken or game finished
+2025-05-20 22:16:40.920 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 22:16:40.921 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 22:16:40.921 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@4b817e08, [Ljava.lang.Character;@611aa73e, [Ljava.lang.Character;@2a620916], winningPlayer=O, isBoardFull=false, connectedPlayers=[O])
+2025-05-20 22:16:40.921 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:16:40.921 [eventLoopGroupProxy-4-9] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 14755ms
+2025-05-20 22:16:42.878 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@2faa8cf7, [Ljava.lang.Character;@216d6772, [Ljava.lang.Character;@2552e787], winningPlayer=null, isBoardFull=false, connectedPlayers=[O])
+2025-05-20 22:16:42.878 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 22:17:23.823 [DefaultDispatcher-worker-2] ERROR com.example.SocketRoutes - Error in WebSocket connection for player O
+java.util.concurrent.CancellationException: The task was rejected
+	at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:17)
+	at kotlinx.coroutines.ExecutorCoroutineDispatcherImpl.cancelJobOnRejection(Executors.kt:172)
+	at kotlinx.coroutines.ExecutorCoroutineDispatcherImpl.dispatch(Executors.kt:134)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.safeDispatch(DispatchedContinuation.kt:254)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:145)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:470)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core(CancellableContinuationImpl.kt:504)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core$default(CancellableContinuationImpl.kt:493)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:359)
+	at kotlinx.coroutines.channels.BufferedChannel$BufferedChannelIterator.tryResumeHasNextOnClosedChannel(BufferedChannel.kt:1739)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeWaiterOnClosedChannel(BufferedChannel.kt:2206)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeReceiverOnClosedChannel(BufferedChannel.kt:2193)
+	at kotlinx.coroutines.channels.BufferedChannel.cancelSuspendedReceiveRequests(BufferedChannel.kt:2186)
+	at kotlinx.coroutines.channels.BufferedChannel.completeClose(BufferedChannel.kt:1963)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosed(BufferedChannel.kt:2242)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend0(BufferedChannel.kt:2217)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend(BufferedChannel.kt:2214)
+	at kotlinx.coroutines.channels.BufferedChannel.completeCloseOrCancel(BufferedChannel.kt:1935)
+	at kotlinx.coroutines.channels.BufferedChannel.closeOrCancelImpl(BufferedChannel.kt:1828)
+	at kotlinx.coroutines.channels.BufferedChannel.close(BufferedChannel.kt:1787)
+	at kotlinx.coroutines.channels.SendChannel$DefaultImpls.close$default(Channel.kt:263)
+	at io.ktor.websocket.DefaultWebSocketSessionImpl$runIncomingProcessor$1.invokeSuspend(DefaultWebSocketSession.kt:249)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:233)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:175)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:147)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:470)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core(CancellableContinuationImpl.kt:504)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core$default(CancellableContinuationImpl.kt:493)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:359)
+	at kotlinx.coroutines.channels.BufferedChannel$BufferedChannelIterator.tryResumeHasNextOnClosedChannel(BufferedChannel.kt:1739)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeWaiterOnClosedChannel(BufferedChannel.kt:2206)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeReceiverOnClosedChannel(BufferedChannel.kt:2193)
+	at kotlinx.coroutines.channels.BufferedChannel.cancelSuspendedReceiveRequests(BufferedChannel.kt:2186)
+	at kotlinx.coroutines.channels.BufferedChannel.completeClose(BufferedChannel.kt:1963)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosed(BufferedChannel.kt:2242)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend0(BufferedChannel.kt:2217)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend(BufferedChannel.kt:2214)
+	at kotlinx.coroutines.channels.BufferedChannel.completeCloseOrCancel(BufferedChannel.kt:1935)
+	at kotlinx.coroutines.channels.BufferedChannel.closeOrCancelImpl(BufferedChannel.kt:1828)
+	at kotlinx.coroutines.channels.BufferedChannel.close(BufferedChannel.kt:1787)
+	at kotlinx.coroutines.channels.SendChannel$DefaultImpls.close$default(Channel.kt:263)
+	at io.ktor.websocket.RawWebSocketJvm$1.invokeSuspend(RawWebSocketJvm.kt:84)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:934)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:836)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:827)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:817)
+	at io.netty.util.concurrent.AbstractEventExecutorGroup.execute(AbstractEventExecutorGroup.java:115)
+	at io.ktor.server.netty.EventLoopGroupProxy.execute(EventLoopGroupProxy.kt)
+	at kotlinx.coroutines.ExecutorCoroutineDispatcherImpl.dispatch(Executors.kt:131)
+	... 50 common frames omitted
+2025-05-20 22:17:23.828 [DefaultDispatcher-worker-2] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 22:17:23.828 [DefaultDispatcher-worker-2] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 22:17:23.829 [DefaultDispatcher-worker-2] ERROR io.ktor.server.netty.CIO - Failed to dispatch
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:934)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:836)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:827)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:817)
+	at io.ktor.server.netty.NettyDispatcher.dispatch(CIO.kt:81)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.safeDispatch(DispatchedContinuation.kt:254)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:145)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:470)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core(CancellableContinuationImpl.kt:504)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core$default(CancellableContinuationImpl.kt:493)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:359)
+	at kotlinx.coroutines.ResumeOnCompletion.invoke(JobSupport.kt:1541)
+	at kotlinx.coroutines.JobSupport.notifyCompletion(JobSupport.kt:1625)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:316)
+	at kotlinx.coroutines.JobSupport.finalizeFinishingState(JobSupport.kt:233)
+	at kotlinx.coroutines.JobSupport.continueCompleting(JobSupport.kt:986)
+	at kotlinx.coroutines.JobSupport.access$continueCompleting(JobSupport.kt:22)
+	at kotlinx.coroutines.JobSupport$ChildCompletion.invoke(JobSupport.kt:1268)
+	at kotlinx.coroutines.JobSupport.notifyCompletion(JobSupport.kt:1625)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:316)
+	at kotlinx.coroutines.JobSupport.finalizeFinishingState(JobSupport.kt:233)
+	at kotlinx.coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.kt:946)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:894)
+	at kotlinx.coroutines.JobSupport.makeCompletingOnce$kotlinx_coroutines_core(JobSupport.kt:859)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:99)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:232)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+2025-05-20 22:17:23.829 [DefaultDispatcher-worker-2] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@2faa8cf7, [Ljava.lang.Character;@216d6772, [Ljava.lang.Character;@2552e787], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 22:17:23.829 [DefaultDispatcher-worker-2] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:02:08.078 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-05-20 23:02:08.186 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 23:02:08.188 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:02:08.250 [main] INFO  Application - Application started in 0.408 seconds.
+2025-05-20 23:02:08.488 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2025-05-20 23:02:11.089 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:02:11.090 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 23:02:11.090 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 23:02:11.090 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:02:11.090 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:02:11.090 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 23:02:16.804 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":0,"y":1}
+2025-05-20 23:02:16.805 [eventLoopGroupProxy-3-5] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 23:02:16.808 [eventLoopGroupProxy-3-5] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:02:16.954 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":0,"y":1}
+2025-05-20 23:02:16.954 [eventLoopGroupProxy-3-1] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 23:02:16.954 [eventLoopGroupProxy-3-1] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:02:17.116 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":0,"y":1}
+2025-05-20 23:02:17.116 [eventLoopGroupProxy-3-4] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 23:02:17.116 [eventLoopGroupProxy-3-4] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:02:43.190 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:02:43.190 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 23:02:43.190 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 23:02:43.190 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 23:02:43.191 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:02:43.191 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:02:47.220 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":0}
+2025-05-20 23:02:47.228 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 0)
+2025-05-20 23:02:47.229 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:02:51.632 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":1,"y":0}
+2025-05-20 23:02:51.632 [eventLoopGroupProxy-3-6] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 23:02:51.632 [eventLoopGroupProxy-3-6] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:03:04.815 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":2,"y":0}
+2025-05-20 23:03:04.815 [eventLoopGroupProxy-3-2] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 23:03:04.815 [eventLoopGroupProxy-3-2] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:03:07.419 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":2,"y":1}
+2025-05-20 23:03:07.419 [eventLoopGroupProxy-3-5] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 23:03:07.419 [eventLoopGroupProxy-3-5] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:03:08.449 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn{"x":2,"y":2}
+2025-05-20 23:03:08.449 [eventLoopGroupProxy-3-1] WARN  com.example.SocketRoutes - Invalid message format: missing '#' separator
+2025-05-20 23:03:08.449 [eventLoopGroupProxy-3-1] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:04:14.127 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 23:04:14.128 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 23:04:14.128 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[O])
+2025-05-20 23:04:14.128 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:04:14.214 [eventLoopGroupProxy-4-1] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 123171ms
+2025-05-20 23:05:24.607 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":0}
+2025-05-20 23:05:24.608 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 0)
+2025-05-20 23:05:24.608 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:24.764 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":0}
+2025-05-20 23:05:24.764 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 0)
+2025-05-20 23:05:24.764 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:24.914 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":0}
+2025-05-20 23:05:24.914 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 0)
+2025-05-20 23:05:24.914 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:25.040 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 23:05:25.041 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 23:05:25.041 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:25.277 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 23:05:25.278 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 23:05:25.278 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:25.528 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 23:05:25.529 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 23:05:25.529 [eventLoopGroupProxy-3-5] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:25.704 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 23:05:25.705 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 23:05:25.705 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:25.924 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 23:05:25.924 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 23:05:25.924 [eventLoopGroupProxy-3-4] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:05:26.112 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 23:05:26.113 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 23:05:26.113 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:06:14.894 [eventLoopGroupProxy-3-6] ERROR com.example.SocketRoutes - Error in WebSocket connection for player O
+java.io.IOException: Ping timeout
+	at io.ktor.websocket.DefaultWebSocketSessionImpl$runOrCancelPinger$newPinger$1.invokeSuspend(DefaultWebSocketSession.kt:326)
+	at io.ktor.websocket.DefaultWebSocketSessionImpl$runOrCancelPinger$newPinger$1.invoke(DefaultWebSocketSession.kt)
+	at io.ktor.websocket.DefaultWebSocketSessionImpl$runOrCancelPinger$newPinger$1.invoke(DefaultWebSocketSession.kt)
+	at io.ktor.websocket.PingPongKt$pinger$1.invokeSuspend(PingPong.kt:97)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:35)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 23:06:14.901 [eventLoopGroupProxy-3-6] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 23:06:14.901 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 23:06:14.901 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 23:06:14.901 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:07:06.067 [eventLoopGroupProxy-4-2] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 262878ms
+2025-05-20 23:11:24.507 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:11:24.508 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 23:11:24.508 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 23:11:24.508 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 23:11:24.508 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:11:24.508 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:11:30.687 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:11:30.687 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 23:11:30.687 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 23:11:30.687 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 23:11:30.687 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:11:30.687 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:11:32.005 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{Json.encodeToString(action)}
+2025-05-20 23:11:32.006 [eventLoopGroupProxy-3-6] ERROR com.example.SocketRoutes - Error decoding make_turn action: {Json.encodeToString(action)}
+kotlinx.serialization.json.internal.JsonDecodingException: Unexpected JSON token at offset 1: Expected quotation mark '"', but had 'J' instead at path: $
+JSON input: {Json.encodeToString(action)}
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:24)
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:32)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail(AbstractJsonLexer.kt:587)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail$default(AbstractJsonLexer.kt:585)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.unexpectedToken(AbstractJsonLexer.kt:789)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeNextToken(StringJsonLexer.kt:76)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeKeyString(StringJsonLexer.kt:88)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeStringKey(StreamingJsonDecoder.kt:332)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeObjectIndex(StreamingJsonDecoder.kt:227)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeElementIndex(StreamingJsonDecoder.kt:178)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69)
+	at kotlinx.serialization.json.Json.decodeFromString(Json.kt:149)
+	at com.example.SocketRoutesKt.extractAction(SocketRoutes.kt:86)
+	at com.example.SocketRoutesKt.access$extractAction(SocketRoutes.kt:1)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:44)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 23:11:32.007 [eventLoopGroupProxy-3-6] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:11:47.304 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{Json.encodeToString(action)}
+2025-05-20 23:11:47.304 [eventLoopGroupProxy-3-2] ERROR com.example.SocketRoutes - Error decoding make_turn action: {Json.encodeToString(action)}
+kotlinx.serialization.json.internal.JsonDecodingException: Unexpected JSON token at offset 1: Expected quotation mark '"', but had 'J' instead at path: $
+JSON input: {Json.encodeToString(action)}
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:24)
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:32)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail(AbstractJsonLexer.kt:587)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail$default(AbstractJsonLexer.kt:585)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.unexpectedToken(AbstractJsonLexer.kt:789)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeNextToken(StringJsonLexer.kt:76)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeKeyString(StringJsonLexer.kt:88)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeStringKey(StreamingJsonDecoder.kt:332)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeObjectIndex(StreamingJsonDecoder.kt:227)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeElementIndex(StreamingJsonDecoder.kt:178)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69)
+	at kotlinx.serialization.json.Json.decodeFromString(Json.kt:149)
+	at com.example.SocketRoutesKt.extractAction(SocketRoutes.kt:86)
+	at com.example.SocketRoutesKt.access$extractAction(SocketRoutes.kt:1)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:44)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 23:11:47.304 [eventLoopGroupProxy-3-2] WARN  com.example.SocketRoutes - Invalid move coordinates received from player O: (-1, -1)
+2025-05-20 23:12:02.898 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{Json.encodeToString(action)}
+2025-05-20 23:12:02.898 [eventLoopGroupProxy-3-5] ERROR com.example.SocketRoutes - Error decoding make_turn action: {Json.encodeToString(action)}
+kotlinx.serialization.json.internal.JsonDecodingException: Unexpected JSON token at offset 1: Expected quotation mark '"', but had 'J' instead at path: $
+JSON input: {Json.encodeToString(action)}
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:24)
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:32)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail(AbstractJsonLexer.kt:587)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail$default(AbstractJsonLexer.kt:585)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.unexpectedToken(AbstractJsonLexer.kt:789)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeNextToken(StringJsonLexer.kt:76)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeKeyString(StringJsonLexer.kt:88)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeStringKey(StreamingJsonDecoder.kt:332)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeObjectIndex(StreamingJsonDecoder.kt:227)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeElementIndex(StreamingJsonDecoder.kt:178)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69)
+	at kotlinx.serialization.json.Json.decodeFromString(Json.kt:149)
+	at com.example.SocketRoutesKt.extractAction(SocketRoutes.kt:86)
+	at com.example.SocketRoutesKt.access$extractAction(SocketRoutes.kt:1)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:44)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 23:12:02.899 [eventLoopGroupProxy-3-5] WARN  com.example.SocketRoutes - Invalid move coordinates received from player X: (-1, -1)
+2025-05-20 23:12:16.758 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{Json.encodeToString(action)}
+2025-05-20 23:12:16.758 [eventLoopGroupProxy-3-1] ERROR com.example.SocketRoutes - Error decoding make_turn action: {Json.encodeToString(action)}
+kotlinx.serialization.json.internal.JsonDecodingException: Unexpected JSON token at offset 1: Expected quotation mark '"', but had 'J' instead at path: $
+JSON input: {Json.encodeToString(action)}
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:24)
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:32)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail(AbstractJsonLexer.kt:587)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail$default(AbstractJsonLexer.kt:585)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.unexpectedToken(AbstractJsonLexer.kt:789)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeNextToken(StringJsonLexer.kt:76)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeKeyString(StringJsonLexer.kt:88)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeStringKey(StreamingJsonDecoder.kt:332)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeObjectIndex(StreamingJsonDecoder.kt:227)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeElementIndex(StreamingJsonDecoder.kt:178)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69)
+	at kotlinx.serialization.json.Json.decodeFromString(Json.kt:149)
+	at com.example.SocketRoutesKt.extractAction(SocketRoutes.kt:86)
+	at com.example.SocketRoutesKt.access$extractAction(SocketRoutes.kt:1)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:44)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 23:12:16.758 [eventLoopGroupProxy-3-1] WARN  com.example.SocketRoutes - Invalid move coordinates received from player O: (-1, -1)
+2025-05-20 23:12:16.909 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{Json.encodeToString(action)}
+2025-05-20 23:12:16.910 [eventLoopGroupProxy-3-4] ERROR com.example.SocketRoutes - Error decoding make_turn action: {Json.encodeToString(action)}
+kotlinx.serialization.json.internal.JsonDecodingException: Unexpected JSON token at offset 1: Expected quotation mark '"', but had 'J' instead at path: $
+JSON input: {Json.encodeToString(action)}
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:24)
+	at kotlinx.serialization.json.internal.JsonExceptionsKt.JsonDecodingException(JsonExceptions.kt:32)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail(AbstractJsonLexer.kt:587)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.fail$default(AbstractJsonLexer.kt:585)
+	at kotlinx.serialization.json.internal.AbstractJsonLexer.unexpectedToken(AbstractJsonLexer.kt:789)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeNextToken(StringJsonLexer.kt:76)
+	at kotlinx.serialization.json.internal.StringJsonLexer.consumeKeyString(StringJsonLexer.kt:88)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeStringKey(StreamingJsonDecoder.kt:332)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeObjectIndex(StreamingJsonDecoder.kt:227)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeElementIndex(StreamingJsonDecoder.kt:178)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at com.example.models.MakeTurn$$serializer.deserialize(MakeTurn.kt:5)
+	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69)
+	at kotlinx.serialization.json.Json.decodeFromString(Json.kt:149)
+	at com.example.SocketRoutesKt.extractAction(SocketRoutes.kt:86)
+	at com.example.SocketRoutesKt.access$extractAction(SocketRoutes.kt:1)
+	at com.example.SocketRoutesKt$socket$1$1.invokeSuspend(SocketRoutes.kt:44)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-20 23:12:16.910 [eventLoopGroupProxy-3-4] WARN  com.example.SocketRoutes - Invalid move coordinates received from player O: (-1, -1)
+2025-05-20 23:12:18.835 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 23:12:18.836 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 23:12:18.836 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:12:18.836 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:12:18.837 [eventLoopGroupProxy-4-4] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 48152ms
+2025-05-20 23:13:02.332 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 23:13:02.333 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 23:13:02.333 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 23:13:02.333 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:13:02.333 [eventLoopGroupProxy-4-3] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 97827ms
+2025-05-20 23:13:03.661 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:13:03.662 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 23:13:03.662 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 23:13:03.662 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 23:13:03.662 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:13:03.662 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:13:05.185 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:13:05.186 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 23:13:05.186 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 23:13:05.186 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 23:13:05.186 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:05.186 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:06.188 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":0}
+2025-05-20 23:13:06.189 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 0)
+2025-05-20 23:13:06.189 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:13:08.163 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 23:13:08.164 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 23:13:08.164 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:08.164 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:09.939 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":0}
+2025-05-20 23:13:09.940 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 0)
+2025-05-20 23:13:09.940 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:09.940 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:10.988 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":0}
+2025-05-20 23:13:10.988 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 0)
+2025-05-20 23:13:10.988 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:10.988 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:12.292 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 23:13:12.292 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 23:13:12.293 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:12.293 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:12.951 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 23:13:12.952 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 23:13:12.952 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:12.952 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:13.051 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":2}
+2025-05-20 23:13:13.052 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 2)
+2025-05-20 23:13:13.052 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O won the game
+2025-05-20 23:13:13.053 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=O, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:13.053 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:18.056 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:13:18.056 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:13:19.080 [eventLoopGroupProxy-3-7] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 23:13:19.081 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 23:13:19.081 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[O])
+2025-05-20 23:13:19.081 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:13:19.081 [eventLoopGroupProxy-4-5] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 15421ms
+2025-05-20 23:13:22.912 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 23:13:22.912 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 23:13:22.913 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 23:13:22.913 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:13:22.913 [eventLoopGroupProxy-4-6] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 17730ms
+2025-05-20 23:15:09.619 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:15:09.619 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 23:15:09.619 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 23:15:09.619 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 23:15:09.619 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:15:09.619 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:15:16.167 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:15:16.167 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 23:15:16.167 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 23:15:16.167 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 23:15:16.167 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:15:16.167 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:15:26.605 [DefaultDispatcher-worker-1] ERROR com.example.SocketRoutes - Error in WebSocket connection for player X
+java.util.concurrent.CancellationException: The task was rejected
+	at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:17)
+	at kotlinx.coroutines.ExecutorCoroutineDispatcherImpl.cancelJobOnRejection(Executors.kt:172)
+	at kotlinx.coroutines.ExecutorCoroutineDispatcherImpl.dispatch(Executors.kt:134)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.safeDispatch(DispatchedContinuation.kt:254)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:145)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:470)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core(CancellableContinuationImpl.kt:504)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core$default(CancellableContinuationImpl.kt:493)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:359)
+	at kotlinx.coroutines.channels.BufferedChannel$BufferedChannelIterator.tryResumeHasNextOnClosedChannel(BufferedChannel.kt:1739)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeWaiterOnClosedChannel(BufferedChannel.kt:2206)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeReceiverOnClosedChannel(BufferedChannel.kt:2193)
+	at kotlinx.coroutines.channels.BufferedChannel.cancelSuspendedReceiveRequests(BufferedChannel.kt:2186)
+	at kotlinx.coroutines.channels.BufferedChannel.completeClose(BufferedChannel.kt:1963)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosed(BufferedChannel.kt:2242)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend0(BufferedChannel.kt:2217)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend(BufferedChannel.kt:2214)
+	at kotlinx.coroutines.channels.BufferedChannel.completeCloseOrCancel(BufferedChannel.kt:1935)
+	at kotlinx.coroutines.channels.BufferedChannel.closeOrCancelImpl(BufferedChannel.kt:1828)
+	at kotlinx.coroutines.channels.BufferedChannel.close(BufferedChannel.kt:1787)
+	at kotlinx.coroutines.channels.SendChannel$DefaultImpls.close$default(Channel.kt:263)
+	at io.ktor.websocket.DefaultWebSocketSessionImpl$runIncomingProcessor$1.invokeSuspend(DefaultWebSocketSession.kt:249)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:233)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:175)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:147)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:470)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core(CancellableContinuationImpl.kt:504)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core$default(CancellableContinuationImpl.kt:493)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:359)
+	at kotlinx.coroutines.channels.BufferedChannel$BufferedChannelIterator.tryResumeHasNextOnClosedChannel(BufferedChannel.kt:1739)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeWaiterOnClosedChannel(BufferedChannel.kt:2206)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeReceiverOnClosedChannel(BufferedChannel.kt:2193)
+	at kotlinx.coroutines.channels.BufferedChannel.cancelSuspendedReceiveRequests(BufferedChannel.kt:2186)
+	at kotlinx.coroutines.channels.BufferedChannel.completeClose(BufferedChannel.kt:1963)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosed(BufferedChannel.kt:2242)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend0(BufferedChannel.kt:2217)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend(BufferedChannel.kt:2214)
+	at kotlinx.coroutines.channels.BufferedChannel.completeCloseOrCancel(BufferedChannel.kt:1935)
+	at kotlinx.coroutines.channels.BufferedChannel.closeOrCancelImpl(BufferedChannel.kt:1828)
+	at kotlinx.coroutines.channels.BufferedChannel.close(BufferedChannel.kt:1787)
+	at kotlinx.coroutines.channels.SendChannel$DefaultImpls.close$default(Channel.kt:263)
+	at io.ktor.websocket.RawWebSocketJvm$1.invokeSuspend(RawWebSocketJvm.kt:84)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:934)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:836)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:827)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:817)
+	at io.netty.util.concurrent.AbstractEventExecutorGroup.execute(AbstractEventExecutorGroup.java:115)
+	at io.ktor.server.netty.EventLoopGroupProxy.execute(EventLoopGroupProxy.kt)
+	at kotlinx.coroutines.ExecutorCoroutineDispatcherImpl.dispatch(Executors.kt:131)
+	... 50 common frames omitted
+2025-05-20 23:15:26.607 [DefaultDispatcher-worker-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 23:15:26.607 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 23:15:26.607 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[O])
+2025-05-20 23:15:26.607 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:15:26.608 [DefaultDispatcher-worker-1] ERROR com.example.models.TicTacToeGame - Error broadcasting to player
+java.util.concurrent.CancellationException: Channel was cancelled
+	at kotlinx.coroutines.channels.BufferedChannel.cancelImpl$kotlinx_coroutines_core(BufferedChannel.kt:1798)
+	at kotlinx.coroutines.channels.BufferedChannel.cancel(BufferedChannel.kt:1795)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:695)
+	at io.ktor.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSession.kt:272)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:65)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:243)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:147)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:470)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core(CancellableContinuationImpl.kt:504)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$kotlinx_coroutines_core$default(CancellableContinuationImpl.kt:493)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:359)
+	at kotlinx.coroutines.channels.BufferedChannel$BufferedChannelIterator.tryResumeHasNextOnClosedChannel(BufferedChannel.kt:1739)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeWaiterOnClosedChannel(BufferedChannel.kt:2206)
+	at kotlinx.coroutines.channels.BufferedChannel.resumeReceiverOnClosedChannel(BufferedChannel.kt:2193)
+	at kotlinx.coroutines.channels.BufferedChannel.cancelSuspendedReceiveRequests(BufferedChannel.kt:2186)
+	at kotlinx.coroutines.channels.BufferedChannel.completeClose(BufferedChannel.kt:1963)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosed(BufferedChannel.kt:2242)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend0(BufferedChannel.kt:2217)
+	at kotlinx.coroutines.channels.BufferedChannel.isClosedForSend(BufferedChannel.kt:2214)
+	at kotlinx.coroutines.channels.BufferedChannel.completeCloseOrCancel(BufferedChannel.kt:1935)
+	at kotlinx.coroutines.channels.BufferedChannel.closeOrCancelImpl(BufferedChannel.kt:1828)
+	at kotlinx.coroutines.channels.BufferedChannel.close(BufferedChannel.kt:1787)
+	at kotlinx.coroutines.channels.SendChannel$DefaultImpls.close$default(Channel.kt:263)
+	at io.ktor.websocket.RawWebSocketJvm$1.invokeSuspend(RawWebSocketJvm.kt:84)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:232)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+2025-05-20 23:15:26.715 [eventLoopGroupProxy-4-7] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 17097ms
+2025-05-20 23:15:26.715 [eventLoopGroupProxy-3-4] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 23:15:26.715 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 23:15:26.715 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 23:15:26.715 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:15:26.809 [eventLoopGroupProxy-4-8] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 10643ms
+2025-05-20 23:15:38.516 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-05-20 23:15:38.615 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 23:15:38.616 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:15:38.674 [main] INFO  Application - Application started in 0.342 seconds.
+2025-05-20 23:15:38.869 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2025-05-20 23:15:48.245 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:15:48.246 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting to connect
+2025-05-20 23:15:48.246 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X connected successfully
+2025-05-20 23:15:48.247 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:15:48.247 [eventLoopGroupProxy-3-5] INFO  com.example.SocketRoutes - WebSocket connection established for player X
+2025-05-20 23:15:48.247 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:15:53.795 [eventLoopGroupProxy-3-7] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:15:53.795 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 23:15:53.795 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 23:15:53.795 [eventLoopGroupProxy-3-7] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 23:15:53.795 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:15:53.795 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:15:55.937 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":2,"y":0}
+2025-05-20 23:15:55.944 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (2, 0)
+2025-05-20 23:15:55.944 [eventLoopGroupProxy-3-1] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:15:59.251 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":0}
+2025-05-20 23:15:59.252 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 0)
+2025-05-20 23:15:59.252 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:15:59.252 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:02.023 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 23:16:02.023 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 23:16:02.023 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:02.024 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:04.130 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":2}
+2025-05-20 23:16:04.131 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 2)
+2025-05-20 23:16:04.131 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:04.131 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:05.853 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 23:16:05.854 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 23:16:05.854 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:05.854 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:06.763 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 23:16:06.764 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 23:16:06.764 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:06.764 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:08.585 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 23:16:08.586 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 23:16:08.586 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:08.586 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:09.932 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":0}
+2025-05-20 23:16:09.933 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 0)
+2025-05-20 23:16:09.933 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:09.933 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:10.919 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":2,"y":0}
+2025-05-20 23:16:10.919 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting move at (2, 0)
+2025-05-20 23:16:10.919 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:10.919 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:11.774 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 23:16:11.775 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 23:16:11.775 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Board is full, starting new round
+2025-05-20 23:16:11.776 [DefaultDispatcher-worker-3] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7d36892e, [Ljava.lang.Character;@f09cbd3, [Ljava.lang.Character;@d5ff12d], winningPlayer=null, isBoardFull=true, connectedPlayers=[X, O])
+2025-05-20 23:16:11.776 [DefaultDispatcher-worker-3] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:16.784 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:16.784 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:16.982 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 23:16:16.982 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 23:16:16.982 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:16.982 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:17.218 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":1}
+2025-05-20 23:16:17.219 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 1)
+2025-05-20 23:16:17.219 [eventLoopGroupProxy-3-7] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:16:22.093 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 23:16:22.093 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 23:16:22.093 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:22.093 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:24.519 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":1}
+2025-05-20 23:16:24.520 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 1)
+2025-05-20 23:16:24.520 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:24.520 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:28.793 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":0}
+2025-05-20 23:16:28.794 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 0)
+2025-05-20 23:16:28.794 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:28.794 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:38.086 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 23:16:38.086 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 23:16:38.086 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:38.086 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:39.718 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":2,"y":1}
+2025-05-20 23:16:39.719 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (2, 1)
+2025-05-20 23:16:39.719 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:39.719 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:41.849 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":0}
+2025-05-20 23:16:41.850 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 0)
+2025-05-20 23:16:41.850 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:41.850 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:44.284 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":2}
+2025-05-20 23:16:44.285 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 2)
+2025-05-20 23:16:44.285 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:44.285 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:45.344 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":2}
+2025-05-20 23:16:45.345 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 2)
+2025-05-20 23:16:45.345 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Board is full, starting new round
+2025-05-20 23:16:45.345 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@767b21e0, [Ljava.lang.Character;@4a15e8bb, [Ljava.lang.Character;@44ee07a9], winningPlayer=null, isBoardFull=true, connectedPlayers=[X, O])
+2025-05-20 23:16:45.345 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:50.346 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:50.346 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:51.423 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 23:16:51.423 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 23:16:51.423 [eventLoopGroupProxy-3-3] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:16:52.727 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 23:16:52.728 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 23:16:52.728 [eventLoopGroupProxy-3-6] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:16:53.440 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":2}
+2025-05-20 23:16:53.440 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 2)
+2025-05-20 23:16:53.441 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:53.441 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:54.138 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 23:16:54.139 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 23:16:54.139 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:54.139 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:55.742 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 23:16:55.743 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 23:16:55.743 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:55.743 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:16:56.536 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":2,"y":0}
+2025-05-20 23:16:56.536 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (2, 0)
+2025-05-20 23:16:56.537 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:16:56.537 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:00.612 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 23:17:00.612 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 23:17:00.612 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:00.612 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:01.203 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":2}
+2025-05-20 23:17:01.204 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 2)
+2025-05-20 23:17:01.204 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:01.204 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:02.428 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":0}
+2025-05-20 23:17:02.428 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 0)
+2025-05-20 23:17:02.428 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:02.428 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:03.381 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 23:17:03.382 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 23:17:03.382 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:03.382 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:04.421 [eventLoopGroupProxy-3-7] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":0,"y":0}
+2025-05-20 23:17:04.422 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Player X attempting move at (0, 0)
+2025-05-20 23:17:04.422 [eventLoopGroupProxy-3-7] INFO  com.example.models.TicTacToeGame - Board is full, starting new round
+2025-05-20 23:17:04.422 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@1a79bc57, [Ljava.lang.Character;@14be4168, [Ljava.lang.Character;@1081d727], winningPlayer=null, isBoardFull=true, connectedPlayers=[X, O])
+2025-05-20 23:17:04.422 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:09.429 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:09.429 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:10.279 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 23:17:10.279 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 23:17:10.280 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:17:10.280 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:17:10.325 [eventLoopGroupProxy-4-2] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 76531ms
+2025-05-20 23:17:22.611 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - New WebSocket connection attempt
+2025-05-20 23:17:22.611 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting to connect
+2025-05-20 23:17:22.611 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O connected successfully
+2025-05-20 23:17:22.611 [eventLoopGroupProxy-3-2] INFO  com.example.SocketRoutes - WebSocket connection established for player O
+2025-05-20 23:17:22.612 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:22.612 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:24.113 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 23:17:24.114 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 23:17:24.114 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:24.114 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:25.079 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":0}
+2025-05-20 23:17:25.079 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 0)
+2025-05-20 23:17:25.079 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:25.080 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:26.005 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":1}
+2025-05-20 23:17:26.006 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 1)
+2025-05-20 23:17:26.006 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:26.006 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:26.819 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":1,"y":1}
+2025-05-20 23:17:26.819 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player O attempting move at (1, 1)
+2025-05-20 23:17:26.819 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:26.819 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:27.628 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":2}
+2025-05-20 23:17:27.629 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 2)
+2025-05-20 23:17:27.629 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player X won the game
+2025-05-20 23:17:27.629 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@55834b53, [Ljava.lang.Character;@2cfceb0, [Ljava.lang.Character;@641c7a80], winningPlayer=X, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:27.629 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:32.631 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:32.631 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:35.129 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":0}
+2025-05-20 23:17:35.129 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 0)
+2025-05-20 23:17:35.129 [eventLoopGroupProxy-3-2] WARN  com.example.models.TicTacToeGame - Invalid move: not player's turn
+2025-05-20 23:17:36.437 [eventLoopGroupProxy-3-5] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":2,"y":0}
+2025-05-20 23:17:36.438 [eventLoopGroupProxy-3-5] INFO  com.example.models.TicTacToeGame - Player X attempting move at (2, 0)
+2025-05-20 23:17:36.438 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:36.438 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:37.442 [eventLoopGroupProxy-3-3] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":0}
+2025-05-20 23:17:37.443 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 0)
+2025-05-20 23:17:37.443 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:37.443 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:38.708 [eventLoopGroupProxy-3-1] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":0}
+2025-05-20 23:17:38.708 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 0)
+2025-05-20 23:17:38.708 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:38.708 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:39.454 [eventLoopGroupProxy-3-6] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":1}
+2025-05-20 23:17:39.454 [eventLoopGroupProxy-3-6] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 1)
+2025-05-20 23:17:39.454 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:39.454 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:40.481 [eventLoopGroupProxy-3-4] DEBUG com.example.SocketRoutes - Received message from player X: make_turn#{"x":1,"y":1}
+2025-05-20 23:17:40.482 [eventLoopGroupProxy-3-4] INFO  com.example.models.TicTacToeGame - Player X attempting move at (1, 1)
+2025-05-20 23:17:40.482 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=O, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=null, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:40.482 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:41.501 [eventLoopGroupProxy-3-2] DEBUG com.example.SocketRoutes - Received message from player O: make_turn#{"x":0,"y":2}
+2025-05-20 23:17:41.502 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O attempting move at (0, 2)
+2025-05-20 23:17:41.502 [eventLoopGroupProxy-3-2] INFO  com.example.models.TicTacToeGame - Player O won the game
+2025-05-20 23:17:41.502 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=O, isBoardFull=false, connectedPlayers=[X, O])
+2025-05-20 23:17:41.502 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 2 players
+2025-05-20 23:17:45.389 [eventLoopGroupProxy-3-1] INFO  com.example.SocketRoutes - WebSocket connection closed for player O
+2025-05-20 23:17:45.390 [eventLoopGroupProxy-3-1] INFO  com.example.models.TicTacToeGame - Player O disconnecting
+2025-05-20 23:17:45.390 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@7abaa1cb, [Ljava.lang.Character;@35acb41c, [Ljava.lang.Character;@496a4657], winningPlayer=O, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:17:45.390 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:17:45.390 [eventLoopGroupProxy-4-3] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 22780ms
+2025-05-20 23:17:46.515 [DefaultDispatcher-worker-4] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@4e25fd80, [Ljava.lang.Character;@61bea976, [Ljava.lang.Character;@31e2ed09], winningPlayer=null, isBoardFull=false, connectedPlayers=[X])
+2025-05-20 23:17:46.515 [DefaultDispatcher-worker-4] DEBUG com.example.models.TicTacToeGame - Broadcasting to 1 players
+2025-05-20 23:17:46.775 [eventLoopGroupProxy-3-3] INFO  com.example.SocketRoutes - WebSocket connection closed for player X
+2025-05-20 23:17:46.776 [eventLoopGroupProxy-3-3] INFO  com.example.models.TicTacToeGame - Player X disconnecting
+2025-05-20 23:17:46.776 [DefaultDispatcher-worker-1] INFO  com.example.models.TicTacToeGame - Broadcasting game state: GameState(playerAtTurn=X, field=[[Ljava.lang.Character;@4e25fd80, [Ljava.lang.Character;@61bea976, [Ljava.lang.Character;@31e2ed09], winningPlayer=null, isBoardFull=false, connectedPlayers=[])
+2025-05-20 23:17:46.776 [DefaultDispatcher-worker-1] DEBUG com.example.models.TicTacToeGame - Broadcasting to 0 players
+2025-05-20 23:17:46.776 [eventLoopGroupProxy-4-1] INFO  Application - [31m101 Switching Protocols[m: [36mGET[m - /play in 118572ms
